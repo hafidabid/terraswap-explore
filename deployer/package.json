@@ -8,6 +8,9 @@
     "build": "tsc",
     "deploy": "npm run build && node dist/index.js",
     "deploy:cw20": "npm run build && node dist/index.js cw20",
+    "deploy:factory": "npm run build && node dist/index.js factory",
+    "deploy:router": "npm run build && node dist/index.js router",
+    "deploy:pair": "npm run build && node dist/index.js pair",
     "prettier": "prettier --ignore-path .gitignore --write \"./src/**/*.+(js|ts|json)\"",
     "prettier:fix": "prettier --write src"
   },
