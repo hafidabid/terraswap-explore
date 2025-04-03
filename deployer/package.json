@@ -1,0 +1,29 @@
+{
+  "name": "deployer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc index.ts && node index.js",
+    "build": "tsc",
+    "deploy": "npm run build && node dist/index.js",
+    "deploy:cw20": "npm run build && node dist/index.js cw20",
+    "prettier": "prettier --ignore-path .gitignore --write \"./src/**/*.+(js|ts|json)\"",
+    "prettier:fix": "prettier --write src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@cosmjs/cosmwasm-stargate": "^0.32.4",
+    "@cosmjs/proto-signing": "^0.32.4",
+    "@cosmjs/stargate": "^0.32.4",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "prettier": "^3.5.3"
+  }
+}
