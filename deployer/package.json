@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx tsc index.ts && node index.js",
+    "start": "tsc && node dist/index.js",
     "build": "tsc",
     "deploy": "npm run build && node dist/index.js",
     "deploy:cw20": "npm run build && node dist/index.js cw20",
