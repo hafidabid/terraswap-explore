@@ -1,0 +1,126 @@
+{
+      "info": {
+        "token": {
+          "contract_addr": "mantra1dc0mapjpm7nzmzckg4h3x2z09nw227tuqjy50jjn5dzcmupez59s2w5s4w"
+        }
+      },
+      "amount": "446589" -> 410094
+    },
+    {
+      "info": {
+        "native_token": {
+          "denom": "uom"
+        }
+      },
+      "amount": "112000" -> 122000
+
+      /////=============
+      (base) hafidabi@hafids-Laptop deployer % npm run start
+
+> deployer@1.0.0 start
+> tsc && node dist/index.js
+
+swap result {
+  gasUsed: 378630n,
+  gasWanted: 534240n,
+  transactionHash: 'BFE2F228C9AF56EE1863FD041273C5F1E93AAE72E4C44409218E5DC2796F208C'
+}
+my address:  mantra1z45dhalkhkfkyg3rt408h47fskqt7w96m94lcg
+current balance:  { denom: 'uom', amount: '896497' }
+current balance:  { denom: 'ust', amount: '0' }
+
+
+token balance:  { balance: '98999530973' }
+total supply:  100000000000
+token decimals:  6
+token name:  BUMIWALI
+token symbol:  TBN
+token owner:  { project: null, description: null, logo: null, marketing: null }
+============================
+
+allowance:  {
+  "allowance": "10000000",
+  "expires": {
+    "never": {}
+  }
+}
+(base) hafidabi@hafids-Laptop deployer % npm run start
+
+> deployer@1.0.0 start
+> tsc && node dist/index.js
+
+swap result {
+  gasUsed: 378630n,
+  gasWanted: 534240n,
+  transactionHash: 'BA60800AA95E402BE064A252A700E8C40AE1F5F6FD1B953C6A0B9DE46E031BF8'
+}
+my address:  mantra1z45dhalkhkfkyg3rt408h47fskqt7w96m94lcg
+current balance:  { denom: 'uom', amount: '883063' }
+current balance:  { denom: 'ust', amount: '0' }
+
+
+token balance:  { balance: '98999557590' }
+total supply:  100000000000
+token decimals:  6
+token name:  BUMIWALI
+token symbol:  TBN
+token owner:  { project: null, description: null, logo: null, marketing: null }
+============================
+
+allowance:  {
+  "allowance": "10000000",
+  "expires": {
+    "never": {}
+  }
+}
+
+// ============
+swap result {
+  gasUsed: 451645n,
+  gasWanted: 636454n,
+  transactionHash: '9E843A872E7FD92EA2AE9F75BE6AE6146EC5B25D9B3C1F23A1E32CD1DBFD99A8'
+}
+my address:  mantra1z45dhalkhkfkyg3rt408h47fskqt7w96m94lcg
+current balance:  { denom: 'uom', amount: '882804' }
+current balance:  { denom: 'ust', amount: '0' }
+
+
+token balance:  { balance: '98999547590' }
+total supply:  100000000000
+token decimals:  6
+token name:  BUMIWALI
+token symbol:  TBN
+token owner:  { project: null, description: null, logo: null, marketing: null }
+============================
+
+allowance:  {
+  "allowance": "10000000",
+  "expires": {
+    "never": {}
+  }
+}
+
+swap result {
+  gasUsed: 470023n,
+  gasWanted: 662183n,
+  transactionHash: '6338CB34111763B37CA4EFC15C76B3C6978F7FCD7C62351B94EF9C39D0AF0A0D'
+}
+my address:  mantra1z45dhalkhkfkyg3rt408h47fskqt7w96m94lcg
+current balance:  { denom: 'uom', amount: '887338' }
+current balance:  { denom: 'ust', amount: '0' }
+
+
+token balance:  { balance: '98999522590' }
+total supply:  100000000000
+token decimals:  6
+token name:  BUMIWALI
+token symbol:  TBN
+token owner:  { project: null, description: null, logo: null, marketing: null }
+============================
+
+allowance:  {
+  "allowance": "10000000",
+  "expires": {
+    "never": {}
+  }
+}
